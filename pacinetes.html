@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   
+    <title>Pacientes</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Encabezado-->
+    <nav role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo"><img src="imagenes/botiquin.png" height="80" alt="Logo Farma"></imag></i>
+                    <h3 h5 class="right"> Historial Clinico </h3>
+                </a>
+    
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="enlace-menu" href="index.html">Cerrar Sesion</a></li>
+    
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="enlace-menu" href="#B">Perfil</a></li>
+                </ul>
+                
+    
+                <ul id="nav-mobile" class="sidenav">
+                    
+                    <li><a href="login2.html">Cerrar Sesion</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i> </a>
+            </div>
+        </nav>
+        <!--Header-->
+
+    <!--Segundo Encabezad-->
+
+
+    <div class="nav-wrapper">
+        <form>
+            <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+            </div>
+        </form>
+    </div>
+
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo right"><img src="imagenes/3.jpg" height="88" alt="Logo Farma"></imag>
+            </a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li> </li>
+                <li><a href="nuevopaciente.html">Nuevo</a></li>
+                <li><a href="#" onclick="M.toast({html: 'Paciente Eliminado', classes: 'rounded'})">Borrar</a></li> 
+                <li><a href="principal.html">Salir</a></li>
+           
+                
+           
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                    
+                <li><a href="nuevopaciente.html">Nuevo</a></li>
+                <li><a href="perfil.html">Borrar</a></li>
+                <li><a href="principal.html">Salir</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i> </a>
+        
+        </div>
+    </nav>
+
+
+
+
+
+    <!--Segundo Encabezad-->
+
+
+
+
+
+
+    <!--Tabla-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col12">
+                <div class="responsive-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Nombre</th>
+                                <th>Apellido Materno</th>
+                                <th>Apellido Paterno</th>
+                                <th>Edad</th>
+                                <th>Peso</th>
+                                <th>Fecha de Nacimiento</th>
+                                <th>Alergias</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>0126</td>
+                                <td>Eclair</td>
+                                <td>Gonzales</td>
+                                <td>Jimenez</td>
+                                <td>2</td>
+                                <td>8.400</td>
+                                <td>2017-05-02</td>
+                                <td>Penicilina y Terramicina</td>
+                            </tr>
+                            <tr>
+                                <td>0127</td>
+                                <td>Alan</td>
+                                <td>Gomez</td>
+                                <td>Perez</td>
+                                <td>6</td>
+                                <td>12.200</td>
+                                <td>2013-07-03</td>
+                                <td>Ninguna</td>
+                            </tr>
+                            <tr>
+                                <td>0128</td>
+                                <td>Jimena</td>
+                                <td>Saldivar</td>
+                                <td>Velez</td>
+                                <td>1</td>
+                                <td>6.700</td>
+                                <td>2018-03-15</td>
+                                <td>Clindamicina</td>
+                            </tr>
+                            <tr>
+                                    <td>0129</td>
+                                    <td>Josue</td>
+                                    <td>Quezada</td>
+                                    <td>Mercado</td>
+                                    <td>11</td>
+                                    <td>16.500</td>
+                                    <td>2008-01-25</td>
+                                    <td>Ibuprofeno</td>
+                                </tr>
+                                <tr>
+                                        <td>0128</td>
+                                        <td>Mariana</td>
+                                        <td>Duran</td>
+                                        <td>Rodriguez</td>
+                                        <td>5</td>
+                                        <td>9.700</td>
+                                        <td>2014-05-15</td>
+                                        <td>Ninguna</td>
+                                    </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tabla-->
+
+
+    <!--Footer-->
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row center-aling">
+                <div class="col s12 l3">
+                    <a href="#">Contactanos</a>
+                </div>
+
+                <div class="col s12 l3">
+                    <a href="#">Terminos y Condiciones</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container left">
+                    2014 Copyright Text
+                    <a class="bl-text text-lighten-a right" href="#!">More links</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                indicators: true,
+                height: 500,
+                interval: 4000
+            });
+
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+        
+
+    
+    </script>
+</body>
+
+</html>

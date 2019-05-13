@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <title>Medicamento</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Encabezado-->
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo"><img src="imagenes/botiquin.png" height="80" alt="Logo Farma"></imag></i>
+                <h3 h5 class="right"> Historial Clinico </h3>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a class="enlace-menu" href="index.html">Cerrar Sesion</a></li>
+
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="enlace-menu" href="#B">Perfil</a></li>
+            </ul>
+
+
+            <ul id="nav-mobile" class="sidenav">
+
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="login2.html">Iniciar Sesion</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i> </a>
+        </div>
+    </nav>
+    <!--Header-->
+
+    <!--Segundo Encabezad-->
+    <div class="nav-wrapper">
+        <form>
+            <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+            </div>
+        </form>
+    </div>
+    <!--Botones-->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo right"><img src="imagenes/medicamento2.jpg" height="88" alt="Logo Farma"></imag>
+            </a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                
+                <li><a href="nuevomedicamento.html">Nuevo</a></li>
+                <li><a href="#" onclick="M.toast({html: 'Medicamento Eliminado', classes: 'rounded'})">Borrar</a></li>
+                <li><a href="principal.html">Salir</a></li>
+                 
+            </ul>
+        </div>
+    </nav>
+    <!--Segundo Encabezado-->
+
+
+    <!--Tabla-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col12">
+                <div class="responsive-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Medicamento</th>
+                                <th>Formula</th>
+                                <th>Unidad</th>
+                                <th>Presentacion</th>
+                                <th>Fecha de Caducidad</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>0226</td>
+                                <td>Gimalxina</td>
+                                <td>Amoxicilina</td>
+                                <td>250 mg</td>
+                                <td>Suspencion</td>
+                                <td>2020-10-18</td>
+                            </tr>
+                            <tr>
+                                <td>0227</td>
+                                <td>Cefagen</td>
+                                <td>Cefuroxima</td>
+                                <td>125 mg</td>
+                                <td>Suspencion</td>
+                                <td>2021-08-06</td>
+                            </tr>
+                            <tr>
+                                <td>0228</td>
+                                <td>Dolpren</td>
+                                <td>Ibuprofeno</td>
+                                <td>2 g</td>
+                                <td>Jarabe</td>
+                                <td>2019-08-15</td>
+                            </tr>
+                            <tr>
+                                <td>0229</td>
+                                <td>Proxalin Plus</td>
+                                <td>Naproxeno/Paracetamol</td>
+                                <td>25/300 mg</td>
+                                <td>Suspencion</td>
+                                <td>2023-12-29</td>
+                            </tr>
+                            <tr>
+                                <td>0228</td>
+                                <td>Tempra</td>
+                                <td>Paracetamol</td>
+                                <td>Gotas</td>
+                                <td>300 mg</td>
+                                <td>2019-12-07</td>
+                            </tr>
+                            <tr>
+                                <td>0229</td>
+                                <td>Bisolvon</td>
+                                <td>Bromhexina</td>
+                                <td>Jarabe</td>
+                                <td>80 mg</td>
+                                <td>2022-06-18</td>
+                            </tr>
+                            <tr>
+                                <td>0230</td>
+                                <td>Exalver</td>
+                                <td>Clorfenamina/Dextrometorfano/Paracetamol</td>
+                                <td>Gotas</td>
+                                <td>20/50/30 mg</td>
+                                <td>2020-03-14</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tabla-->
+
+
+    <!--Footer-->
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row center-aling">
+                <div class="col s12 l3">
+                    <a href="#">Contactanos</a>
+                </div>
+
+                <div class="col s12 l3">
+                    <a href="#">Terminos y Condiciones</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container left">
+                    2014 Copyright Text
+                    <a class="bl-text text-lighten-a right" href="#!">More links</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                indicators: true,
+                height: 500,
+                interval: 4000
+            });
+
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+
+
+    </script>
+</body>
+
+</html>
