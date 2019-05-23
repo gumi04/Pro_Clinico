@@ -47,11 +47,12 @@
                 <div class="loginBox">
                         <img src="imagenes/user.png" class="user">
                         <h4>Iniciar Sesion</h4>
-                        <form>
+
+                        <form name="Flogin2" action="principal.html" method="GET">
                             <p>Usuario</p>
-                            <input type="text" name="" placeholder="Nombre de Ususario" >
+                            <input type="text" name="nombre" placeholder="Nombre de Ususario" >
                             <p>Contraseña</p>
-                            <input type="password" name="" placeholder="Contraseña" >
+                            <input type="password" name="contraseña" placeholder="Contraseña" >
                             
                             <p>
                                     <label>
@@ -59,7 +60,7 @@
                                         <span>Mostrar Contraseña</span>
                                     </label>
                                 </p>
-                                <a href="principal.html"><input type="button" name="" value="Iniciar" >
+                                <input type="button"  value="Iniciar" onclick="validalogin()" >
                                 <a href="registro.html"><input  type="button" name="" value="Registrarse" >
                             <a href="recuperar.html">Olvido su Contraseña? Da Clic Aqui</a>
                         </form>

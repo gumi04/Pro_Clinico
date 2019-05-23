@@ -42,7 +42,7 @@
 
             <div class="section container">
                 <div class="row">
-                    <form class="col s12">
+                    <form name="fregistro" action="login2.html" method="GET" class="col s12">
                         <div class="row card-panel">
 
 
@@ -53,7 +53,7 @@
                                 
                                         <div class="input-field col s6 center">
                                             <i class="material-icons prefix"></i>
-                                            <input id="icon_telephone" type="email" class="validate" required>
+                                            <input id="icon_telephone" name="e" type="email" class="validate" required>
                                             <label for="icon_telephone">E-mal</label>
                                         </div>
                                     
@@ -61,14 +61,14 @@
                                     <div class="row">
                                         <div class="input-field col s6 center">
                                             <i class="material-icons prefix">https</i>
-                                            <input id="icon_telephone" type="text" class="validate" required>
+                                            <input id="icon_telephone" name="c" type="text" class="validate" required>
                                             <label for="icon_telephone">Contraseña</label>
                                         </div>
                                     </div>
                                <div class="row">
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix"></i>
-                                    <input id="icon_prefix" type="text" class="validate" required>
+                                    <input id="icon_prefix" name="n" type="text" class="validate" required>
                                     <label for="icon_prefix">Nombre</label>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                 <div class="row">
                                     <div class="input-field col s6">
                                         <i class="material-icons prefix"></i>
-                                        <input id="icon_telephone" type="text" class="validate" required>
+                                        <input id="icon_telephone" name="a" type="text" class="validate" required>
                                         <label for="icon_telephone">Apellido</label>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@
                                 <div class="row">
                                     <div class="input-field col s6 center">
                                         <i class="material-icons prefix">https</i>
-                                        <input id="icon_telephone" type="text" class="validate" required>
+                                        <input id="icon_telephone" name="c1" type="text" class="validate" required>
                                         <label for="icon_telephone">Ingrese Contraseña</label>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@
                                 <div class="row">
                                     <div class="input-field col s6 center">
                                         <i class="material-icons prefix"></i>
-                                        <input id="icon_telephone" type="text" class="validate" required>
+                                        <input id="icon_telephone" name="p1" type="text" class="validate" required>
                                         <label for="icon_telephone">Pista 1</label>
                                     </div>
                                 </div>
@@ -100,13 +100,16 @@
                                 <div class="row">
                                     <div class="input-field col s6 center">
                                         <i class="material-icons prefix"></i>
-                                        <input id="icon_telephone" type="text" class="validate" required>
+                                        <input id="icon_telephone" name="p2" type="text" class="validate" required>
                                         <label for="icon_telephone">Pista 2</label>
                                     </div>
                                 </div>
 
-                                <a href="login2.html" id="download-button" class="btn-large ">Registrar</a>
-                                <a href="index.html" id="download-button" class="btn-large ">Cancelar</a>
+                                 <div>
+                                     <button id="download-button" class="btn-large" onclick="validaregistro()" >Registrar</button>
+                                     <a href="index.html" id="download-button" class="btn-large ">Cancelar</a>
+                                 </div>
+                                
                             </div>
                             </div>
                         </div>

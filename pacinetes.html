@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -63,7 +64,7 @@
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li> </li>
                 <li><a href="nuevopaciente.html">Nuevo</a></li>
-                <li><a href="#" onclick="M.toast({html: 'Paciente Eliminado', classes: 'rounded'})">Borrar</a></li> 
+                <li><a id="bopaciente" href="#">Borrar</a></li> 
                 <li><a href="principal.html">Salir</a></li>
            
                 
@@ -166,7 +167,7 @@
                                     </tr>
                         </tbody>
                     </table>
-
+                    <div id="panelpaciente">Paciente Eliminado!</div>
                 </div>
             </div>
         </div>
@@ -210,6 +211,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/efectos.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.slider');
