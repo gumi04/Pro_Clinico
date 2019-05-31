@@ -53,11 +53,22 @@ nav {
 }
 
 footer a {
-    color: #0d2427
+   
+    color: #0d2427;   
+}
+footer .row{
+    margin-left:300px;
 }
 
+
 .page-footer {
-    background-color: lightskyblue
+    
+    background-color: lightskyblue;
+    margin: 0px auto;
+    
+}
+footer .footer-copyright{
+    margin-left:0px;
 }
 
 body {
